@@ -17,9 +17,7 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ navigation }) => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Here you would typically make an API call to authenticate
-    if (email && password) {
-      // For demo purposes, we'll just navigate to the Items screen
+    if (email == "teste@gmail.com" && password == "teste123") {
       navigation.replace('Items');
     } else {
       Alert.alert('Error', 'Please fill in all fields');

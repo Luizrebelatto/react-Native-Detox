@@ -34,12 +34,11 @@ const ItemDetailsScreen: React.FC<ItemDetailsScreenProps> = ({
         style={styles.backButton}
         onPress={() => navigation.goBack()}
       >
-        <Text style={styles.backButtonText}>← Back</Text>
+        <Text style={styles.backButtonText}>Back</Text>
       </TouchableOpacity>
       <ScrollView style={styles.content}>
         <Text style={styles.title}>{item.title}</Text>
-        <Text style={styles.description}>{item.description}</Text>
-        {/* Add more item details here */}
+        <Text style={styles.description}>{`Details ${item.description}`}</Text>
       </ScrollView>
     </View>
   );
@@ -49,6 +48,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+    paddingTop: 50
   },
   backButton: {
     padding: 15,
