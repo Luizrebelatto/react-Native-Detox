@@ -65,6 +65,6 @@ detox test --configuration android.emu.release
 
 |                |              Ios                |              Android                                  | 
  | :------------: | :----------------------------------------: | :---------------------------------------: | 
- | Login Screen | ![](https://github.com/user-attachments/assets/76a86e89-aa9a-4a42-ad24-0be43d03b893) | ![](https://github.com/user-attachments/assets/76a86e89-aa9a-4a42-ad24-0be43d03b893) |
+ | Login Screen | ![](https://github.com/user-attachments/assets/76a86e89-aa9a-4a42-ad24-0be43d03b893) | ![](https://github.com/user-attachments/assets/4f021a2d-545d-4df7-81f9-3c1c8c17383c) | 
  | Item Screen | ![](https://github.com/user-attachments/assets/4f021a2d-545d-4df7-81f9-3c1c8c17383c) | ![](https://github.com/user-attachments/assets/4f021a2d-545d-4df7-81f9-3c1c8c17383c) |
  | Details Screen | ![](https://github.com/user-attachments/assets/597f57f2-0c31-4581-aaf5-824d5b9f5ef6) | ![](https://github.com/user-attachments/assets/597f57f2-0c31-4581-aaf5-824d5b9f5ef6) |
